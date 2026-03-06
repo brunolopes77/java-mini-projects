@@ -44,6 +44,9 @@ public class Main {
             }
             System.out.println("Deseja fazer outra operação?[S/N]");
             again = scanner.next();
+            if (again.equalsIgnoreCase("N")){
+                System.out.println("Calculadora' encerrada");
+            }
         }
         scanner.close();
     }
