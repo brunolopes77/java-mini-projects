@@ -44,7 +44,6 @@ public class Main {
             }
             System.out.println("Deseja fazer outra operação?[S/N]");
             again = scanner.next();
-
         }
         scanner.close();
     }
