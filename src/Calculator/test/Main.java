@@ -1,7 +1,7 @@
-package Calculadora.test;
+package Calculator.test;
 
-import Calculadora.dominio.MathOperation;
-import Calculadora.dominio.ShowMenu;
+import Calculator.dominio.MathOperation;
+import Calculator.dominio.ShowMenu;
 
 import java.util.Scanner;
 

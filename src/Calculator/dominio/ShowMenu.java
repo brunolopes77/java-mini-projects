@@ -1,4 +1,4 @@
-package Calculadora.dominio;
+package Calculator.dominio;
 
 public class ShowMenu {
     public void menu1(){

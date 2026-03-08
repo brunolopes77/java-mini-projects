@@ -1,4 +1,4 @@
-package Calculadora.dominio;
+package Calculator.dominio;
 
 public class MathOperation {
     public double addNumbers(double num1, double num2) {
