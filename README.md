@@ -2,18 +2,41 @@
 
 # Bank Account Simulation
 
-Mini projeto em Java que simula operações bancárias.
+Mini project in Java that simulates basic banking operations.
 
-## Funcionalidades
-- Depositar dinheiro
-- Sacar dinheiro
-- Ver saldo
-- Dados do usuário
+## Features
+- Deposit money
+- Withdraw money
+- Check account balance
+- User information
 
-## Tecnologias
+## Technologies
 - Java
 - Console
 
-## Como rodar
+## How to Run
+javac Main.java
+java Main
+
+# Java Calculator
+
+Simple calculator built in Java using the console.
+
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Division by zero validation
+- Interactive menu
+
+## Technologies
+- Java
+- Scanner
+- Object-Oriented Programming
+
+## How to Run
+
+```bash
 javac Main.java
 java Main
