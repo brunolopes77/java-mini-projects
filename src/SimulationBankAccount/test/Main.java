@@ -15,6 +15,7 @@ public class Main {
         System.out.print("NOME DO TITULAR: ");
         String accountHolderName = scanner.nextLine();
         System.out.println("SALDO INICIAL R$ 00,0");
+
         float balance = 0;
         int option;
         do {
@@ -29,15 +30,15 @@ public class Main {
                     balance -= bankAccount.withDraw();
                     break;
                 case 3:
-                    System.out.println("Saldo:"+balance);
+                    System.out.println("Saldo:" + balance);
                     break;
                 case 4:
-                    System.out.println(accountHolderName+" Saiu da conta.");
+                    System.out.println(accountHolderName + " Saiu da conta bancária.");
                     break;
                 default:
                     System.out.println("Opção errada!");
                     break;
             }
-        } while(option != 4);
+        } while (option != 4);
     }
 }
