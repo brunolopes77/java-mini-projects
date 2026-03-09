@@ -8,7 +8,7 @@ public class BankAccount {
     public float deposit() {
         System.out.print("Qual valor deseja depositar? ");
         float deposited = scanner.nextFloat();
-        System.out.println("Valor: " + deposited + " depositado com sucesso!");
+        System.out.println("Valor: R$" + deposited + " depositado com sucesso!");
 
         return deposited;
     }
@@ -20,7 +20,7 @@ public class BankAccount {
             System.out.println("Saldo insuficiente.");
             return 0;
         }
-        System.out.println("Valor: " + withDrawn + " foi sacado com sucesso!");
+        System.out.println("Valor: R$" + withDrawn + " foi sacado com sucesso!");
         return withDrawn;
     }
 }

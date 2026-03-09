@@ -35,6 +35,10 @@ public class Main {
                 case 4:
                     System.out.println(accountHolderName + " Saiu da conta bancária.");
                     break;
+                case 5:
+                    System.out.println("TITULAR: "+accountHolderName);
+                    System.out.println("SALDO: R$"+balance);
+                    break;
                 default:
                     System.out.println("Opção errada!");
                     break;

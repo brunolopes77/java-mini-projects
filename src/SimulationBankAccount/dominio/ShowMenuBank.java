@@ -7,6 +7,7 @@ public class ShowMenuBank {
         System.out.println("[2] - Sacar dinheiro");
         System.out.println("[3] - Ver saldo");
         System.out.println("[4] - Sair");
+        System.out.println("[5] - Ver dados da conta");
         System.out.println("==================================");
         System.out.print("Qual opção deseja? ");
     }
