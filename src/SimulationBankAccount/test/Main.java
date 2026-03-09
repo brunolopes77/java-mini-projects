@@ -27,7 +27,7 @@ public class Main {
                     balance += bankAccount.deposit();
                     break;
                 case 2:
-                    balance -= bankAccount.withDraw();
+                    balance -= bankAccount.withDraw(balance);
                     break;
                 case 3:
                     System.out.println("Saldo:" + balance);
