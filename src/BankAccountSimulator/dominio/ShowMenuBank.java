@@ -1,4 +1,4 @@
-package SimulationBankAccount.dominio;
+package BankAccountSimulator.dominio;
 
 public class ShowMenuBank {
     public void MenuBank(){

@@ -1,7 +1,7 @@
-package SimulationBankAccount.test;
+package BankAccountSimulator.test;
 
-import SimulationBankAccount.dominio.BankAccount;
-import SimulationBankAccount.dominio.ShowMenuBank;
+import BankAccountSimulator.dominio.BankAccount;
+import BankAccountSimulator.dominio.ShowMenuBank;
 
 import java.util.Scanner;
 
