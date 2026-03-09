@@ -15,6 +15,7 @@ Mini project in Java that simulates basic banking operations.
 - Console
 
 ## How to Run
+
 javac Main.java
 java Main
 
@@ -37,6 +38,5 @@ Simple calculator built in Java using the console.
 
 ## How to Run
 
-```bash
 javac Main.java
 java Main
