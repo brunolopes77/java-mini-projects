@@ -7,20 +7,18 @@ public class Main {
     //O usuário correto é: `admin`
     //A senha correta é: `1234`
     public static void main(String[] args) {
-        ConsoleReader user = new ConsoleReader();
-        ConsoleReader password = new ConsoleReader();
+        ConsoleReader consoleReader = new ConsoleReader();
 
         String correctUser = "admin";
         String correctPassword = "1234";
 
-        user.userInput();
-        password.passwordInput();
+        consoleReader.userInput();
+        consoleReader.passwordInput();
 
-        if (user.userInput() == correctUser.equals("admin") && password.passwordInput() == correctPassword){
+        if (consoleReader.userInput() == correctUser.equals("admin") && consoleReader.passwordInput() == correctPassword){
             System.out.println("Login realizado com sucesso!");
         }else {
             System.out.println("Usuário ou senha incorretos. ");
         }
-
     }
 }
