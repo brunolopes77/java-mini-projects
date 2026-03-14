@@ -19,13 +19,14 @@ public class Main {
 
             if (correctUser.equals("admin") && correctPassword.equals("1234")) {
                 System.out.println("Login realizado com sucesso!");
-            } else {
-                System.out.println("Senha ou usuários inválidos.");
-                attempts += 1;
-                if (attempts == 3) {
-                    System.out.println("Conta bloqueada!");
-                }
+                break;
             }
-        } while ((!correctUser.equals("admin") || !correctPassword.equals("1234")) && attempts < 3);
+            System.out.println("Senha ou usuários inválidos.");
+            attempts += 1;
+            
+            if (attempts == 3) {
+                System.out.println("Conta bloqueada!");
+            }
+        } while (attempts < 3);
     }
 }
