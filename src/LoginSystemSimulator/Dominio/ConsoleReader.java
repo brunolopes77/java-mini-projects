@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class ConsoleReader {
     Scanner scanner = new Scanner(System.in);
 
-    public String userInput(){
+    public String userInput() {
         System.out.println("LOGIN");
         System.out.print("Digite o usuário: ");
-        String consoleUserImput = scanner.next();
+        String user = scanner.next();
 
-        return consoleUserImput;
+        return user;
     }
-    public String passwordInput(){
+
+    public String passwordInput() {
         System.out.print("Digite a senha: ");
-        String consolePasswordInput = scanner.next();
+        String  password = scanner.next();
 
-        return consolePasswordInput;
+        return password;
     }
-
 }

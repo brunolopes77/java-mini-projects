@@ -9,21 +9,23 @@ public class Main {
     public static void main(String[] args) {
         ConsoleReader consoleReader = new ConsoleReader();
 
-        String correctUser;
-        String correctPassword;
+        String correctUser = "admin";
+        String correctPassword = "1234";
+        String user;
+        String password;
         int attempts = 0;
 
         do {
-            correctUser = consoleReader.userInput();
-            correctPassword = consoleReader.passwordInput();
+            user = consoleReader.userInput();
+            password = consoleReader.passwordInput();
 
-            if (correctUser.equals("admin") && correctPassword.equals("1234")) {
+            if (correctUser.equals(user) && correctPassword.equals(password)) {
                 System.out.println("Login realizado com sucesso!");
                 break;
             }
             System.out.println("Senha ou usuários inválidos.");
             attempts += 1;
-            
+
             if (attempts == 3) {
                 System.out.println("Conta bloqueada!");
             }
